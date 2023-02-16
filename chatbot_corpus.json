@@ -25,6 +25,15 @@
       "What did you just say to me?!?",
       "Wanna take a shot?"
     ],
+    "yes": [
+      "yes to a shot?",
+      "what we talking about again?"
+    ],
+    "no": [
+      "WHAT DO YOU MEAN NO?!",
+      "boooo you're no fun",
+      "piss off"
+    ],
     "hi": [
       "Hey there",
       "piss off",
