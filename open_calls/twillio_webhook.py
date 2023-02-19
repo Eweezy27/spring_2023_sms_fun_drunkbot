@@ -40,7 +40,7 @@ def handle_request():
     with open(f"users/{request.form['From']}.pkl", 'wb') as p:
         pickle.dump(act,p)
 
-    response = '*hiccups*'
+    response = random.choice(CORPUS['random']['random'])
 
     sent_input = str(request.form['Body']).lower()
     if sent_input in CORPUS['input']:
