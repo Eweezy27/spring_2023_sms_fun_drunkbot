@@ -1,119 +1,171 @@
 {
-  "random": {
-     "random": [
-       "Should I text her?",
-       "I miss her",
-       "dont tell my mom im drunk",
-       "HAHA sowry i didnt catch that im so wasted right now",
-       "hEYY whats up *burp* im so drunk lmaooooooo"
-    ]
-  },
-  "input": {
-    "hello": [
-      "Hey there",
-      "piss off",
-      "Hey what is your favorite drink?",
-      "Wanna take a shot?"
-    ],
-    "heyo": [
-      "Hey there",
-      "piss off",
-      "Hey what is your favorite drink?",
-      "Wanna take a shot?"
-    ],
-    "hey": [
-      "Hey there",
-      "piss off",
-      "Hey what is your favorite drink?",
-      "Wanna take a shot?"
-    ],
-    "yo": [
-      "Hey there",
-      "piss off",
-      "Hey what is your favorite drink?",
-      "What did you just say to me?!?",
-      "Wanna take a shot?"
-    ],
-    "yes": [
-      "yes to a shot?",
-      "what we talking about again?"
-    ],
-    "no": [
-      "WHAT DO YOU MEAN NO?!",
-      "boooo you're no fun",
-      "piss off"
-    ],
-    "hi": [
-      "Hey there",
-      "piss off",
-      "Hey what is your favorite drink?",
-      "Wanna take a shot?"
-    ],
-    "drunk": [
-      "Nah I'm goood just had a couple rounds",
-      "I ain't drunk",
-      "Hah I think I would know if I was drunk"
-    ],
-    "wasted": [
-      "Nah I'm goood just had a couple rounds",
-      "I ain't drunk",
-      "Hah I think I would know if I was drunk",
-      "Wanna take a shot?"
-    ],
-    "party": [
-      "\u2764\ufe0f"
-    ],
-    "vodka": [
-      "Good choice",
-      "Mine as well",
-      "Wanna take a shot?"
-    ],
-    "liquor": [
-      "Good choice",
-      "Mine as well",
-      "Wanna take a shot?"
-    ],
-    "tequila": [
-      "Good choice",
-      "Mine as well",
-      "Wanna take a shot?"
-    ],
-    "wine": [
-      "Not my first choice"
-    ],
-    "milk": [
-      "Not quite what I meant"
-    ],
-    "what are you drinking?": [
-      "Depends whos asking..."
-    ],
-    "how are you doing": [
-      "I need a cigarette",
-      "Wanna take a shot?"
-    ],
-    "aaaaaaaaaaaaaaaaaaa": [
-      "DID NOT FIND"
-    ],
-    "\\": [
-      "DID NOT FIND"
-    ],
-    "l": [
-      "DID NOT FIND"
-    ],
-    "pogchamp": [
-      "DID NOT FIND"
-    ],
-    "testing": [
-      "DID NOT FIND"
-    ],
-    "testing second ": [
-      "DID NOT FIND"
-    ],
-    "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d": [
-      "DID NOT FIND"
-    ],
-    "your favorite": [
-      "DID NOT FIND"
-    ]
-  }
+    "random": {
+        "random": [
+            "Should I text her?",
+            "I miss her",
+            "dont tell my mom im drunk",
+            "HAHA sowry i didnt catch that im so wasted right now",
+            "hEYY whats up *burp* im so drunk lmaooooooo"
+        ]
+    },
+    "input": {
+        "hello": [
+            "Hey there",
+            "piss off",
+            "Hey what is your favorite drink?",
+            "Wanna take a shot?"
+        ],
+        "heyo": [
+            "Hey there",
+            "piss off",
+            "Hey what is your favorite drink?",
+            "Wanna take a shot?"
+        ],
+        "hey": [
+            "Hey there",
+            "piss off",
+            "Hey what is your favorite drink?",
+            "Wanna take a shot?"
+        ],
+        "yo": [
+            "Hey there",
+            "piss off",
+            "Hey what is your favorite drink?",
+            "What did you just say to me?!?",
+            "Wanna take a shot?"
+        ],
+        "yes": [
+            "yes to a shot?",
+            "what we talking about again?"
+        ],
+        "no": [
+            "WHAT DO YOU MEAN NO?!",
+            "boooo you're no fun",
+            "piss off"
+        ],
+        "hi": [
+            "Hey there",
+            "piss off",
+            "Hey what is your favorite drink?",
+            "Wanna take a shot?"
+        ],
+        "drunk": [
+            "Nah I'm goood just had a couple rounds",
+            "I ain't drunk",
+            "Hah I think I would know if I was drunk"
+        ],
+        "wasted": [
+            "Nah I'm goood just had a couple rounds",
+            "I ain't drunk",
+            "Hah I think I would know if I was drunk",
+            "Wanna take a shot?"
+        ],
+        "party": [
+            "\u2764\ufe0f"
+        ],
+        "vodka": [
+            "Good choice",
+            "Mine as well",
+            "Wanna take a shot?"
+        ],
+        "liquor": [
+            "Good choice",
+            "Mine as well",
+            "Wanna take a shot?"
+        ],
+        "tequila": [
+            "Good choice",
+            "Mine as well",
+            "Wanna take a shot?"
+        ],
+        "wine": [
+            "Not my first choice"
+        ],
+        "milk": [
+            "Not quite what I meant"
+        ],
+        "what are you drinking?": [
+            "Depends whos asking..."
+        ],
+        "how are you doing": [
+            "I need a cigarette",
+            "Wanna take a shot?"
+        ],
+        "aaaaaaaaaaaaaaaaaaa": [
+            "DID NOT FIND"
+        ],
+        "\\": [
+            "DID NOT FIND"
+        ],
+        "l": [
+            "DID NOT FIND"
+        ],
+        "pogchamp": [
+            "DID NOT FIND"
+        ],
+        "testing": [
+            "DID NOT FIND"
+        ],
+        "testing second ": [
+            "DID NOT FIND"
+        ],
+        "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d": [
+            "DID NOT FIND"
+        ],
+        "your favorite": [
+            "DID NOT FIND"
+        ],
+        "okayz": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "p": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "ohp": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "panda": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "pine": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "kids": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "psnw ": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "fasho": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "miss who?": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "okay i won't lol": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "i said i won't": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "okay i won't...": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "what's up": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "i said i won't tell your mom your drunk": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "your good": [
+            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        ],
+        "what's wrong with you?": [
+            "Nothing!? Whats wrong with you??"
+        ],
+        "no you don't": [
+            "I really do",
+            "You're right F her"
+        ]
+    }
 }
