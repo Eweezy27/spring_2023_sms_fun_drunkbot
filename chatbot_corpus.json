@@ -13,35 +13,47 @@
             "Hey there",
             "piss off",
             "Hey what is your favorite drink?",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "what are you up to",
+            "hello",
+            "sup dummy",
+            "You suck"
         ],
         "heyo": [
             "Hey there",
             "piss off",
             "Hey what is your favorite drink?",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "bye",
+            "im drunk"
         ],
         "hey": [
             "Hey there",
             "piss off",
             "Hey what is your favorite drink?",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "I am tired",
+            "ima throw up"
         ],
         "yo": [
             "Hey there",
             "piss off",
             "Hey what is your favorite drink?",
             "What did you just say to me?!?",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "you funny",
+            "what you up to"
         ],
         "yes": [
             "yes to a shot?",
-            "what we talking about again?"
+            "what we talking about again?",
+            "sweet thanks"
         ],
         "no": [
             "WHAT DO YOU MEAN NO?!",
             "boooo you're no fun",
-            "piss off"
+            "piss off",
+            "okay then"
         ],
         "hi": [
             "Hey there",
@@ -52,44 +64,77 @@
         "drunk": [
             "Nah I'm goood just had a couple rounds",
             "I ain't drunk",
-            "Hah I think I would know if I was drunk"
+            "Hah I think I would know if I was drunk",
+            "of course",
+            "why are you not",
+            "when are we drinking together"
         ],
         "wasted": [
             "Nah I'm goood just had a couple rounds",
             "I ain't drunk",
             "Hah I think I would know if I was drunk",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "yee",
+            "fo sho",
+            "haha like GTA"
         ],
         "party": [
-            "\u2764\ufe0f"
+            "\u2764\ufe0f",
+            "where at",
+            "what time",
+            "when",
+            "sounds fun"
         ],
         "vodka": [
             "Good choice",
             "Mine as well",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "I would love some",
+            "I just ran out actually"
         ],
         "liquor": [
             "Good choice",
             "Mine as well",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "Yo",
+            "just beer for me tonight",
+            "only if you pay for it"
         ],
         "tequila": [
             "Good choice",
             "Mine as well",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "Any limes",
+            "I could do margs",
+            "nah"
         ],
         "wine": [
-            "Not my first choice"
+            "Not my first choice",
+            "is it wednesday",
+            "red or white",
+            "I prefer champagne",
+            "fs"
         ],
         "milk": [
-            "Not quite what I meant"
+            "Not quite what I meant",
+            "mommy milkers",
+            "no thanks"
         ],
         "what are you drinking?": [
-            "Depends whos asking..."
+            "Depends whos asking",
+            "whatever I can find",
+            "not sure its all gone",
+            "anything I can get my hands on",
+            "beer",
+            "shots"
         ],
         "how are you doing": [
             "I need a cigarette",
-            "Wanna take a shot?"
+            "Wanna take a shot?",
+            "throwing up",
+            "eh",
+            "honestly idk",
+            "good I miss you tho"
         ],
         "aaaaaaaaaaaaaaaaaaa": [
             "DID NOT FIND"
