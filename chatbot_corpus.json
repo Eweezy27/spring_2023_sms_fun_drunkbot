@@ -136,6 +136,39 @@
             "honestly idk",
             "good I miss you tho"
         ],
+        "drink": [
+            "I think i'll have one as well",
+            "how about a toast then?"
+        ],
+        "discuss": [
+            "I'm sorry but I'd rather drink"
+        ],
+        "drive": [
+            "I'm good to drive",
+            "I barely had any alchahol"
+        ],
+        "eat": [
+            "yea I think some food would go well with this",
+            "agreed some food would be nice what were you thinking?"
+        ],
+        "fall": [
+            "don't worry about me I can handle my liquor"
+        ],
+        "fight": [
+            "You don't want to mess with me",
+            "I fight better when I'm drunk",
+            "Hah a bar fight sign me up"
+        ],
+        "remember": [
+            "err I don't think I've forgotten anything",
+            "oh right thank you for the reminder"
+        ],
+        "sleep": [
+            "yea I'm probably going to have a hangover tommorow"
+        ],
+        "talk": [
+            "I'm sorry but I'd rather drink"
+        ],
         "aaaaaaaaaaaaaaaaaaa": [
             "DID NOT FIND"
         ],
