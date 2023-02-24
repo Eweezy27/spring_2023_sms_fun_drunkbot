@@ -12,48 +12,58 @@
         "hello": [
             "Hey there",
             "piss off",
-            "Hey what is your favorite drink?",
-            "Wanna take a shot?",
+            "Hey whats your favorite drink",
+            "Wanna take a shot",
             "what are you up to",
             "hello",
             "sup dummy",
-            "You suck"
+            "You suck",
+            "im bored lets drink"
         ],
         "heyo": [
-            "Hey there",
-            "piss off",
-            "Hey what is your favorite drink?",
-            "Wanna take a shot?",
+            "Hey",
+            "fuck off",
+            "Hey whats your favorite drink",
             "bye",
-            "im drunk"
+            "im drunk",
+            "I wanna drink",
+            "wyd tonight"
         ],
         "hey": [
-            "Hey there",
-            "piss off",
-            "Hey what is your favorite drink?",
-            "Wanna take a shot?",
+            "yo",
+            "shut up",
+            "why are you texting me rn",
             "I am tired",
-            "ima throw up"
+            "ima throw up",
+            "come over. lets drink",
+            "what the fuck man I was sleeping"
         ],
         "yo": [
-            "Hey there",
-            "piss off",
-            "Hey what is your favorite drink?",
-            "What did you just say to me?!?",
-            "Wanna take a shot?",
+            "whats good",
+            "fuck off",
             "you funny",
-            "what you up to"
+            "what you up to",
+            "yo yo yo",
+            "whats up dawg",
+            "where are the parties tonight"
         ],
         "yes": [
-            "yes to a shot?",
+            "say less",
             "what we talking about again?",
-            "sweet thanks"
+            "sweet thanks",
+            "I hope so"
         ],
         "no": [
             "WHAT DO YOU MEAN NO?!",
             "boooo you're no fun",
             "piss off",
-            "okay then"
+            "okay then",
+            "fine",
+            "whatever",
+            "thats lame",
+            "noooooooo",
+            "why is it always no no no with you",
+            "but I wanna"
         ],
         "hi": [
             "Hey there",
@@ -67,19 +77,22 @@
             "Hah I think I would know if I was drunk",
             "of course",
             "why are you not",
-            "when are we drinking together"
+            "when are we drinking together",
+            "I wish",
+            "ni",
+            "of curse",
+            "maybe juts a littel"
         ],
         "wasted": [
             "Nah I'm goood just had a couple rounds",
-            "I ain't drunk",
-            "Hah I think I would know if I was drunk",
             "Wanna take a shot?",
             "yee",
             "fo sho",
-            "haha like GTA"
+            "haha like GTA",
+            "who told you that",
+            "why do you crae"
         ],
         "party": [
-            "\u2764\ufe0f",
             "where at",
             "what time",
             "when",
@@ -146,7 +159,11 @@
             "DID NOT FIND"
         ],
         "pogchamp": [
-            "DID NOT FIND"
+            "lets gooooo",
+            "aint no way",
+            "whatttttt",
+            "that shit funny",
+            "fuck off"
         ],
         "testing": [
             "DID NOT FIND"
@@ -158,59 +175,125 @@
             "DID NOT FIND"
         ],
         "your favorite": [
-            "DID NOT FIND"
+            "beer",
+            "ice cold vodka",
+            "tequila with lime",
+            "anything I can get my hands on"
         ],
         "okayz": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "shut ip",
+            "nah",
+            "m not bout that",
+            "huh"
         ],
         "p": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "P is for partyyyyyyyy"
         ],
         "ohp": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "there it is",
+            "wtf",
+            "what that",
+            "I love you"
         ],
         "panda": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "omg so cute",
+            "they are the least racist bear",
+            "once I saw one at the zoo",
+            "they are gonna die"
         ],
         "pine": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "lone pine",
+            "good wood",
+            "I love trees",
+            "where are the forests around here",
+            "what"
         ],
         "kids": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "I was a kid the first time I got drunk",
+            "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
+            "thas weird",
+            "Damn"
         ],
         "psnw ": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "huh",
+            "wut"
         ],
         "fasho": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "yee",
+            "lets go",
+            "yuh",
+            "yoooo",
+            "thanks",
+            "graci",
+            "shit"
         ],
-        "miss who?": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+        "miss who": [
+            "My girl",
+            "she left me a few monts ago",
+            "why do you care",
+            "doesnt matter",
+            "its fine",
+            "shut up I dont wanna talk abotu it",
+            "my bitch",
+            "loml",
+            "that one chick at trevors party"
         ],
         "okay i won't lol": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "thansk",
+            "she wil kill me",
+            "ugh good",
+            "shes already mad",
+            "or my girl"
         ],
         "i said i won't": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "Good",
+            "thanks",
+            "youre so mice I might have to buy you a drink",
+            "ugh praise the lord"
         ],
         "okay i won't...": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "thank you",
+            "omg I love you",
+            "yessssss",
+            "phew"
         ],
         "what's up": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "Nothing much just headed to the bars",
+            "bouta start drinking",
+            "not really sure rn ",
+            "hnetsly I dont fucking know",
+            "why are there",
+            "cant even see straight",
+            "just found my keys",
+            "what do you think bitch",
+            "fuck off"
         ],
         "i said i won't tell your mom your drunk": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "okay fine thanks",
+            "but she will know if youre lying dude",
+            "fuck this is a shit show",
+            "im gonna get my credit card taken if you snitch"
         ],
         "your good": [
-            "Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!"
+            "Yup",
+            "thanl you",
+            "you look good 👀",
+            "ugh good",
+            "no im literally the worst"
         ],
         "what's wrong with you?": [
-            "Nothing!? Whats wrong with you??"
+            "Nothing!? Whats wrong with you??",
+            "shut the fuck up",
+            "why are you tfucking talkign to me then",
+            "fuc you",
+            "nah you are the one with a problem",
+            "nothing im prefect",
+            "idk but whatever I have you have it worse"
         ],
         "no you don't": [
             "I really do",
-            "You're right F her"
+            "You're right fuck her",
+            "fuck you"
         ]
     }
 }
