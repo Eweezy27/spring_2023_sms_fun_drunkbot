@@ -24,6 +24,7 @@ with open('chatbot_corpus.json', 'r') as myfile:
 
 
 def handle_request():
+    convo = {}
     logger.debug(request.form)
 
     act = None
@@ -41,18 +42,19 @@ def handle_request():
         pickle.dump(act,p)
 
     response = random.choice(CORPUS['random']['random'])
-
+    nateNum = "+17609200710"
+    userNum = request.form['From']
     sent_input = str(request.form['Body']).lower()
+
+    if userNum in convo and convo[userNum]['last_message_from'] == 'nateNum':
+        return json_response(status = 'ok')
+
     wordslist = nltk.word_tokenize(sent_input)
-    wordslist = [w for w in wordslist if not w in stop_words]#remove stop words from text
+    wordslist = [w for w in wordslist if not w in stop_words]#remove stop words from text https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
 
     tagged = nltk.pos_tag(wordslist)
 
     stags = [(word, map_tag('en-ptb', 'universal', tag)) for word, tag in tagged]#simplified tags https://stackoverflow.com/questions/5787673/python-nltk-how-to-tag-sentences-with-the-simplified-set-of-part-of-speech-tags
-    #verbs = list(filter(lambda x:(x[1]=='VERB'), stags))
-    #print(verbs)
-    #nouns = list(filter(lambda x:x[1]=='NOUN', stags))#some verbs like fight were getting tagged as noun
-    #print(nouns)
     keywords = list(filter(lambda x:x[1] == 'VERB' or x[1] == 'NOUN' or x[1] == 'ADJ', stags))
     #print(keywords)
     fkeyword = "no valid"#get first valid keyword
@@ -64,21 +66,53 @@ def handle_request():
     #print(fkeyword)
     if sent_input in CORPUS['input']:
         response = random.choice(CORPUS['input'][sent_input])
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
     elif fkeyword != "no valid":
         response = random.choice(CORPUS['keyword'][fkeyword])
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
     else:
-        CORPUS['input'][sent_input] = ['Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!']
-        with open('chatbot_corpus.json', 'w') as myfile:
-            myfile.write(json.dumps(CORPUS, indent=4 ))
+        ##userNum = request.form['From']
+        message = g.sms_client.messages.create(
+            body = 'answer this please:"{}"'.format(sent_input),
+            from_ = yml_configs['twillio']['phone_number'],
+            to = nateNum)
 
-    logger.debug(response)
+        ##response = ''
+        ##print(response)
+        ##while response == '':
+        response_recieved = False
+        while not response_recieved:
+            messages = g.sms_client.messages.list(from_ = nateNum, to = userNum)
+            for m in messages:
+                if m.body:
+                    ##if m.from_ == nateNum and response_expected:
+                    response = m.body
+                    print(response)
 
-    message = g.sms_client.messages.create(
-                     body=response,
-                     from_=yml_configs['twillio']['phone_number'],
-                     to=request.form['From'])
-    return json_response( status = "ok" )
 
+                    CORPUS['input'][sent_input] = [response]
+                    with open('chatbot_corpus.json', 'w') as myfile:
+                        myfile.write(json.dumps(CORPUS, indent=4 ))
 
+                    logger.debug(response)
 
+                    message = g.sms_client.messages.create(
+                        body=response,
+                        from_=yml_configs['twillio']['phone_number'],
+                        to=userNum)
+
+                    response_recieved = True
+                    break
+        if userNum not in convo:
+            convo[userNum] = {'last_message_from': 'chatbot'}
+
+        convo[userNum]['last_message_from'] = 'nateNum'
+
+        return json_response( status = "ok" )
 
