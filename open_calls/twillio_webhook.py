@@ -43,8 +43,29 @@ def handle_request():
     response = random.choice(CORPUS['random']['random'])
 
     sent_input = str(request.form['Body']).lower()
+    wordslist = nltk.word_tokenize(sent_input)
+    wordslist = [w for w in wordslist if not w in stop_words]#remove stop words from text
+
+    tagged = nltk.pos_tag(wordslist)
+
+    stags = [(word, map_tag('en-ptb', 'universal', tag)) for word, tag in tagged]#simplified tags https://stackoverflow.com/questions/5787673/python-nltk-how-to-tag-sentences-with-the-simplified-set-of-part-of-speech-tags
+    #verbs = list(filter(lambda x:(x[1]=='VERB'), stags))
+    #print(verbs)
+    #nouns = list(filter(lambda x:x[1]=='NOUN', stags))#some verbs like fight were getting tagged as noun
+    #print(nouns)
+    keywords = list(filter(lambda x:x[1] == 'VERB' or x[1] == 'NOUN' or x[1] == 'ADJ', stags))
+    #print(keywords)
+    fkeyword = "no valid"#get first valid keyword
+    for i in keywords:
+        if i[0] in CORPUS['keyword']:
+            fkeyword = i[0]
+            break
+
+    #print(fkeyword)
     if sent_input in CORPUS['input']:
         response = random.choice(CORPUS['input'][sent_input])
+    elif fkeyword != "no valid":
+        response = random.choice(CORPUS['keyword'][fkeyword])
     else:
         CORPUS['input'][sent_input] = ['Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!']
         with open('chatbot_corpus.json', 'w') as myfile:
