@@ -1,7 +1,11 @@
 import yaml
+import nltk
 from flask import request, g
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 from os.path import exists
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.tag import map_tag
 
 
 from tools.logging import logger
@@ -16,6 +20,8 @@ yml_configs = {}
 BODY_MSGS = []
 with open('config.yml', 'r') as yml_file:
     yml_configs = yaml.safe_load(yml_file)
+
+stop_words = set(stopwords.words('english'))
 
 CORPUS = {}
 
