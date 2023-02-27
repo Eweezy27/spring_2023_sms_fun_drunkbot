@@ -1,346 +1,348 @@
 {
-    "random": {
-        "random": [
-            "Should I text her?",
-            "I miss her",
-            "dont tell my mom im drunk",
-            "HAHA sory i didnt catch that im so wasted right now",
-            "im annoyed",
-            "fuck off",
-            "this beer is warm I need another",
-            "im drunk",
-            "damn ",
-            "wtf",
-            "...",
-            "I dont wanna leave",
-            "fuck yes I found my keys I can leave now",
-            "I am fucking bored",
-            "I dont know whats goin gon rn",
-            "shit",
-            "fuck",
-            "damn",
-            "no way my girl finally texted back"
-        ]
-    },
-    "input": {
-        "hello": [
-            "Hey there",
-            "piss off",
-            "Hey whats your favorite drink",
-            "Wanna take a shot",
-            "what are you up to",
-            "hello",
-            "sup dummy",
-            "You suck",
-            "im bored lets drink"
-        ],
-        "heyo": [
-            "Hey",
-            "fuck off",
-            "Hey whats your favorite drink",
-            "bye",
-            "im drunk",
-            "I wanna drink",
-            "wyd tonight"
-        ],
-        "hey": [
-            "yo",
-            "shut up",
-            "why are you texting me rn",
-            "I am tired",
-            "ima throw up",
-            "come over. lets drink",
-            "what the fuck man I was sleeping"
-        ],
-        "yo": [
-            "whats good",
-            "fuck off",
-            "you funny",
-            "what you up to",
-            "yo yo yo",
-            "whats up dawg",
-            "where are the parties tonight"
-        ],
-        "yes": [
-            "say less",
-            "what we talking about again?",
-            "sweet thanks",
-            "I hope so"
-        ],
-        "no": [
-            "WHAT DO YOU MEAN NO?!",
-            "boooo you're no fun",
-            "piss off",
-            "okay then",
-            "fine",
-            "whatever",
-            "thats lame",
-            "noooooooo",
-            "why is it always no no no with you",
-            "but I wanna"
-        ],
-        "hi": [
-            "Hey there",
-            "piss off",
-            "Hey what is your favorite drink?",
-            "Wanna take a shot?"
-        ],
-        "drunk": [
-            "Nah I'm goood just had a couple rounds",
-            "I ain't drunk",
-            "Hah I think I would know if I was drunk",
-            "of course",
-            "why are you not",
-            "when are we drinking together",
-            "I wish",
-            "ni",
-            "of curse",
-            "maybe juts a littel"
-        ],
-        "wasted": [
-            "Nah I'm goood just had a couple rounds",
-            "Wanna take a shot?",
-            "yee",
-            "fo sho",
-            "haha like GTA",
-            "who told you that",
-            "why do you crae"
-        ],
-        "party": [
-            "where at",
-            "what time",
-            "when",
-            "sounds fun"
-        ],
-        "vodka": [
-            "Good choice",
-            "Mine as well",
-            "Wanna take a shot?",
-            "I would love some",
-            "I just ran out actually"
-        ],
-        "liquor": [
-            "Good choice",
-            "Mine as well",
-            "Wanna take a shot?",
-            "Yo",
-            "just beer for me tonight",
-            "only if you pay for it"
-        ],
-        "tequila": [
-            "Good choice",
-            "Mine as well",
-            "Wanna take a shot?",
-            "Any limes",
-            "I could do margs",
-            "nah"
-        ],
-        "wine": [
-            "Not my first choice",
-            "is it wednesday",
-            "red or white",
-            "I prefer champagne",
-            "fs"
-        ],
-        "milk": [
-            "Not quite what I meant",
-            "mommy milkers",
-            "no thanks"
-        ],
-        "what are you drinking?": [
-            "Depends whos asking",
-            "whatever I can find",
-            "not sure its all gone",
-            "anything I can get my hands on",
-            "beer",
-            "shots"
-        ],
-        "how are you doing": [
-            "I need a cigarette",
-            "Wanna take a shot?",
-            "throwing up",
-            "eh",
-            "honestly idk",
-            "good I miss you tho"
-        ],
-        "drink": [
-            "I think i'll have one as well",
-            "how about a toast then?"
-        ],
-        "discuss": [
-            "I'm sorry but I'd rather drink"
-        ],
-        "drive": [
-            "I'm good to drive",
-            "I barely had any alchahol"
-        ],
-        "eat": [
-            "yea I think some food would go well with this",
-            "agreed some food would be nice what were you thinking?"
-        ],
-        "fall": [
-            "don't worry about me I can handle my liquor"
-        ],
-        "fight": [
-            "You don't want to mess with me",
-            "I fight better when I'm drunk",
-            "Hah a bar fight sign me up"
-        ],
-        "remember": [
-            "err I don't think I've forgotten anything",
-            "oh right thank you for the reminder"
-        ],
-        "sleep": [
-            "yea I'm probably going to have a hangover tommorow"
-        ],
-        "talk": [
-            "I'm sorry but I'd rather drink"
-        ],
-        "aaaaaaaaaaaaaaaaaaa": [
-            "DID NOT FIND"
-        ],
-        "\\": [
-            "DID NOT FIND"
-        ],
-        "l": [
-            "DID NOT FIND"
-        ],
-        "pogchamp": [
-            "lets gooooo",
-            "aint no way",
-            "whatttttt",
-            "that shit funny",
-            "fuck off"
-        ],
-        "testing": [
-            "DID NOT FIND"
-        ],
-        "testing second ": [
-            "DID NOT FIND"
-        ],
-        "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d": [
-            "DID NOT FIND"
-        ],
-        "your favorite": [
-            "beer",
-            "ice cold vodka",
-            "tequila with lime",
-            "anything I can get my hands on"
-        ],
-        "okayz": [
-            "shut ip",
-            "nah",
-            "m not bout that",
-            "huh"
-        ],
-        "p": [
-            "P is for partyyyyyyyy"
-        ],
-        "ohp": [
-            "there it is",
-            "wtf",
-            "what that",
-            "I love you"
-        ],
-        "panda": [
-            "omg so cute",
-            "they are the least racist bear",
-            "once I saw one at the zoo",
-            "they are gonna die"
-        ],
-        "pine": [
-            "lone pine",
-            "good wood",
-            "I love trees",
-            "where are the forests around here",
-            "what"
-        ],
-        "kids": [
-            "I was a kid the first time I got drunk",
-            "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
-            "thas weird",
-            "Damn"
-        ],
-        "psnw ": [
-            "huh",
-            "wut"
-        ],
-        "fasho": [
-            "yee",
-            "lets go",
-            "yuh",
-            "yoooo",
-            "thanks",
-            "graci",
-            "shit"
-        ],
-        "miss who": [
-            "My girl",
-            "she left me a few monts ago",
-            "why do you care",
-            "doesnt matter",
-            "its fine",
-            "shut up I dont wanna talk abotu it",
-            "my bitch",
-            "loml",
-            "that one chick at trevors party"
-        ],
-        "okay i won't lol": [
-            "thansk",
-            "she wil kill me",
-            "ugh good",
-            "shes already mad",
-            "or my girl"
-        ],
-        "i said i won't": [
-            "Good",
-            "thanks",
-            "youre so mice I might have to buy you a drink",
-            "ugh praise the lord"
-        ],
-        "okay i won't...": [
-            "thank you",
-            "omg I love you",
-            "yessssss",
-            "phew"
-        ],
-        "what's up": [
-            "Nothing much just headed to the bars",
-            "bouta start drinking",
-            "not really sure rn ",
-            "hnetsly I dont fucking know",
-            "why are there",
-            "cant even see straight",
-            "just found my keys",
-            "what do you think bitch",
-            "fuck off"
-        ],
-        "i said i won't tell your mom your drunk": [
-            "okay fine thanks",
-            "but she will know if youre lying dude",
-            "fuck this is a shit show",
-            "im gonna get my credit card taken if you snitch"
-        ],
-        "your good": [
-            "Yup",
-            "thanl you",
-            "you look good 👀",
-            "ugh good",
-            "no im literally the worst"
-        ],
-        "what's wrong with you?": [
-            "Nothing!? Whats wrong with you??",
-            "shut the fuck up",
-            "why are you tfucking talkign to me then",
-            "fuc you",
-            "nah you are the one with a problem",
-            "nothing im prefect",
-            "idk but whatever I have you have it worse"
-        ],
-        "no you don't": [
-            "I really do",
-            "You're right fuck her",
-            "fuck you"
-        ]
-    }
+  "random": {
+    "random": [
+      "Should I text her?",
+      "I miss her",
+      "dont tell my mom im drunk",
+      "HAHA sory i didnt catch that im so wasted right now",
+      "im annoyed",
+      "fuck off",
+      "this beer is warm I need another",
+      "im drunk",
+      "damn ",
+      "wtf",
+      "...",
+      "I dont wanna leave",
+      "fuck yes I found my keys I can leave now",
+      "I am fucking bored",
+      "I dont know whats goin gon rn",
+      "shit",
+      "fuck",
+      "damn",
+      "no way my girl finally texted back"
+    ]
+  },
+  "input": {
+    "hello": [
+      "Hey there",
+      "piss off",
+      "Hey whats your favorite drink",
+      "Wanna take a shot",
+      "what are you up to",
+      "hello",
+      "sup dummy",
+      "You suck",
+      "im bored lets drink"
+    ],
+    "heyo": [
+      "Hey",
+      "fuck off",
+      "Hey whats your favorite drink",
+      "bye",
+      "im drunk",
+      "I wanna drink",
+      "wyd tonight"
+    ],
+    "hey": [
+      "yo",
+      "shut up",
+      "why are you texting me rn",
+      "I am tired",
+      "ima throw up",
+      "come over. lets drink",
+      "what the fuck man I was sleeping"
+    ],
+    "yo": [
+      "whats good",
+      "fuck off",
+      "you funny",
+      "what you up to",
+      "yo yo yo",
+      "whats up dawg",
+      "where are the parties tonight"
+    ],
+    "yes": [
+      "say less",
+      "what we talking about again?",
+      "sweet thanks",
+      "I hope so"
+    ],
+    "no": [
+      "WHAT DO YOU MEAN NO?!",
+      "boooo you're no fun",
+      "piss off",
+      "okay then",
+      "fine",
+      "whatever",
+      "thats lame",
+      "noooooooo",
+      "why is it always no no no with you",
+      "but I wanna"
+    ],
+    "hi": [
+      "Hey there",
+      "piss off",
+      "Hey what is your favorite drink?",
+      "Wanna take a shot?"
+    ],
+    "what are you drinking?": [
+      "Depends whos asking",
+      "whatever I can find",
+      "not sure its all gone",
+      "anything I can get my hands on",
+      "beer",
+      "shots"
+    ],
+    "how are you doing": [
+      "I need a cigarette",
+      "Wanna take a shot?",
+      "throwing up",
+      "eh",
+      "honestly idk",
+      "good I miss you tho"
+    ],
+    "aaaaaaaaaaaaaaaaaaa": [
+      "DID NOT FIND"
+    ],
+    "\\": [
+      "DID NOT FIND"
+    ],
+    "l": [
+      "DID NOT FIND"
+    ],
+    "pogchamp": [
+      "lets gooooo",
+      "aint no way",
+      "whatttttt",
+      "that shit funny",
+      "fuck off"
+    ],
+    "testing": [
+      "DID NOT FIND"
+    ],
+    "testing second ": [
+      "DID NOT FIND"
+    ],
+    "😭😭😭": [
+      "DID NOT FIND"
+    ],
+    "your favorite": [
+      "beer",
+      "ice cold vodka",
+      "tequila with lime",
+      "anything I can get my hands on"
+    ],
+    "okayz": [
+      "shut ip",
+      "nah",
+      "m not bout that",
+      "huh"
+    ],
+    "p": [
+      "P is for partyyyyyyyy"
+    ],
+    "ohp": [
+      "there it is",
+      "wtf",
+      "what that",
+      "I love you"
+    ],
+    "psnw ": [
+      "huh",
+      "wut"
+    ],
+    "fasho": [
+      "yee",
+      "lets go",
+      "yuh",
+      "yoooo",
+      "thanks",
+      "graci",
+      "shit"
+    ],
+    "miss who": [
+      "My girl",
+      "she left me a few monts ago",
+      "why do you care",
+      "doesnt matter",
+      "its fine",
+      "shut up I dont wanna talk abotu it",
+      "my bitch",
+      "loml",
+      "that one chick at trevors party"
+    ],
+    "okay i won't lol": [
+      "thansk",
+      "she wil kill me",
+      "ugh good",
+      "shes already mad",
+      "or my girl"
+    ],
+    "i said i won't": [
+      "Good",
+      "thanks",
+      "youre so mice I might have to buy you a drink",
+      "ugh praise the lord"
+    ],
+    "okay i won't...": [
+      "thank you",
+      "omg I love you",
+      "yessssss",
+      "phew"
+    ],
+    "what's up": [
+      "Nothing much just headed to the bars",
+      "bouta start drinking",
+      "not really sure rn ",
+      "hnetsly I dont fucking know",
+      "why are there",
+      "cant even see straight",
+      "just found my keys",
+      "what do you think bitch",
+      "fuck off"
+    ],
+    "i said i won't tell your mom your drunk": [
+      "okay fine thanks",
+      "but she will know if youre lying dude",
+      "fuck this is a shit show",
+      "im gonna get my credit card taken if you snitch"
+    ],
+    "your good": [
+      "Yup",
+      "thanl you",
+      "you look good 👀",
+      "ugh good",
+      "no im literally the worst"
+    ],
+    "what's wrong with you?": [
+      "Nothing!? Whats wrong with you??",
+      "shut the fuck up",
+      "why are you tfucking talkign to me then",
+      "fuc you",
+      "nah you are the one with a problem",
+      "nothing im prefect",
+      "idk but whatever I have you have it worse"
+    ],
+    "no you don't": [
+      "I really do",
+      "You're right fuck her",
+      "fuck you"
+    ]
+  },
+  "keyword": {
+    "drunk": [
+      "Nah I'm goood just had a couple rounds",
+      "I ain't drunk",
+      "Hah I think I would know if I was drunk",
+      "of course",
+      "why are you not",
+      "when are we drinking together",
+      "I wish",
+      "ni",
+      "of curse",
+      "maybe juts a littel"
+    ],
+    "wasted": [
+      "Nah I'm goood just had a couple rounds",
+      "Wanna take a shot?",
+      "yee",
+      "fo sho",
+      "haha like GTA",
+      "who told you that",
+      "why do you crae"
+    ],
+    "party": [
+      "where at",
+      "what time",
+      "when",
+      "sounds fun"
+    ],
+    "vodka": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "I would love some",
+      "I just ran out actually"
+    ],
+    "liquor": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "Yo",
+      "just beer for me tonight",
+      "only if you pay for it"
+    ],
+    "tequila": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "Any limes",
+      "I could do margs",
+      "nah"
+    ],
+    "wine": [
+      "Not my first choice",
+      "is it wednesday",
+      "red or white",
+      "I prefer champagne",
+      "fs"
+    ],
+    "milk": [
+      "Not quite what I meant",
+      "mommy milkers",
+      "no thanks"
+    ],
+    "drink": [
+      "I think i'll have one as well",
+      "how about a toast then?"
+    ],
+    "discuss": [
+      "I'm sorry but I'd rather drink"
+    ],
+    "drive": [
+      "I'm good to drive",
+      "I barely had any alchahol"
+    ],
+    "eat": [
+      "yea I think some food would go well with this",
+      "agreed some food would be nice what were you thinking?"
+    ],
+    "fall": [
+      "don't worry about me I can handle my liquor"
+    ],
+    "fight": [
+      "You don't want to mess with me",
+      "I fight better when I'm drunk",
+      "Hah a bar fight sign me up"
+    ],
+    "remember": [
+      "err I don't think I've forgotten anything",
+      "oh right thank you for the reminder"
+    ],
+    "sleep": [
+      "yea I'm probably going to have a hangover tommorow"
+    ],
+    "talk": [
+      "I'm sorry but I'd rather drink"
+    ],
+    "panda": [
+      "omg so cute",
+      "they are the least racist bear",
+      "once I saw one at the zoo",
+      "they are gonna die"
+    ],
+    "pine": [
+      "lone pine",
+      "good wood",
+      "I love trees",
+      "where are the forests around here",
+      "what"
+    ],
+    "kids": [
+      "I was a kid the first time I got drunk",
+      "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
+      "thas weird",
+      "Damn"
+    ]
+  }
 }
