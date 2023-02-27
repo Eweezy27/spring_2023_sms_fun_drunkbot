@@ -24,6 +24,7 @@ with open('chatbot_corpus.json', 'r') as myfile:
 
 
 def handle_request():
+    convo = {}
     logger.debug(request.form)
 
     act = None
@@ -42,22 +43,55 @@ def handle_request():
 
     response = random.choice(CORPUS['random']['random'])
 
+    nateNum = "+17609200710"
+    userNum = request.form['From']
     sent_input = str(request.form['Body']).lower()
+
+    if userNum in convo and convo[userNum]['last_message_from'] == 'nateNum':
+        return json_response(status = 'ok')
+    
     if sent_input in CORPUS['input']:
         response = random.choice(CORPUS['input'][sent_input])
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
     else:
-        CORPUS['input'][sent_input] = ['Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!']
-        with open('chatbot_corpus.json', 'w') as myfile:
-            myfile.write(json.dumps(CORPUS, indent=4 ))
+        ##userNum = request.form['From']
+        message = g.sms_client.messages.create(
+            body = 'answer this please:"{}"'.format(sent_input),
+            from_ = yml_configs['twillio']['phone_number'],
+            to = nateNum)
+        
+        ##response = ''
+        ##print(response)
+        ##while response == '':
+        response_recieved = False
+        while not response_recieved:
+            messages = g.sms_client.messages.list(from_ = nateNum, to = userNum)
+            for m in messages:
+                if m.body:
+                    ##if m.from_ == nateNum and response_expected:
+                    response = m.body
+                    print(response)
+                    
 
-    logger.debug(response)
+                    CORPUS['input'][sent_input] = [response]
+                    with open('chatbot_corpus.json', 'w') as myfile:
+                        myfile.write(json.dumps(CORPUS, indent=4 ))
+                        
+                    logger.debug(response)
+        
+                    message = g.sms_client.messages.create(
+                        body=response,
+                        from_=yml_configs['twillio']['phone_number'],
+                        to=userNum)
+                    
+                    response_recieved = True
+                    break
+        if userNum not in convo:
+            convo[userNum] = {'last_message_from': 'chatbot'}
 
-    message = g.sms_client.messages.create(
-                     body=response,
-                     from_=yml_configs['twillio']['phone_number'],
-                     to=request.form['From'])
-    return json_response( status = "ok" )
-
-
-
-
+        convo[userNum]['last_message_from'] = 'nateNum'
+                    
+        return json_response( status = "ok" )
