@@ -93,10 +93,20 @@
     ],
     "drink": [
       "I think i'll have one as well",
-      "how about a toast then?"
+      "how about a toast then?",
+      "need  new one",
+      "please can we drink",
+      "I hevent had much oday",
+      "im goo dI just had a shot",
+      "Id love one",
+      "thanks"
     ],
     "discuss": [
-      "I'm sorry but I'd rather drink"
+      "I'm sorry but I'd rather drink",
+      "about what",
+      "what",
+      "no",
+      "leave me alone"
     ],
     "drive": [
       "I'm good to drive",
@@ -119,10 +129,21 @@
       "oh right thank you for the reminder"
     ],
     "sleep": [
-      "yea I'm probably going to have a hangover tommorow"
+      "yea I'm probably going to have a hangover tommorow",
+      "im pretty tired",
+      "I slept with the hottest girl the other day",
+      "a nice warm bed sounds nice rn",
+      "damn"
     ],
     "talk": [
-      "I'm sorry but I'd rather drink"
+      "I'm sorry but I'd rather drink",
+      "about what",
+      "what",
+      "no",
+      "leave me alone",
+      "I am talkign to a new girl",
+      "id rather talk to a brick wall than text you one more second",
+      "im so over talkign lets fo drink"
     ],
     "panda": [
       "omg so cute",
@@ -148,6 +169,111 @@
       "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
       "thas weird",
       "Damn"
+    ],
+    "no":[
+        "boooo you're no fun",
+        "shut up",
+        "wym no",
+        "fine",
+        "aint no way",
+        "damn fine then",
+        "rude"
+    ],
+    "yeah":[
+        "no way",
+        "lets go",
+        "sweet thanks",
+        "youre lit",
+        "niceee"
+    ],
+    "fuck":[
+        "wtf",
+        "why",
+        "who",
+        "when",
+        "where",
+        "okay",
+        "geez",
+        "watch your fucking language",
+        "I know"
+    ],
+    "hello": [
+        "Hey there",
+        "piss off",
+        "Hey whats your favorite drink",
+        "Wanna take a shot",
+        "what are you up to",
+        "hello",
+        "sup dummy",
+        "You suck",
+        "im bored lets drink"
+    ],
+    "hi": [
+        "Hey",
+        "fuck off",
+        "Hey whats your favorite drink",
+        "bye",
+        "im drunk",
+        "I wanna drink",
+        "wyd tonight"
+    ],
+    "hey": [
+        "yo",
+        "shut up",
+        "why are you texting me rn",
+        "I am tired",
+        "ima throw up",
+        "come over. lets drink",
+        "what the fuck man I was sleeping"
+    ],
+    "shut":[
+        "rude",
+        "no",
+        "why",
+        "why dont you",
+        "fine",
+        "no way man"
+    ],
+    "why":[
+        "because I said so",
+        "idk",
+        "who knows",
+        "hmmmm let me think",
+        "idk you tell me",
+        "because",
+        "cause",
+        "why should I tell you"
+    ],
+    "miss":[
+        "I miss my gril",
+        "she was just the best",
+        "I wanna be with her again",
+        "why did she have to leave me",
+        "I know",
+        "the one that got away"
+    ],
+    "good":[
+        "yee",
+        "ikr",
+        "thanks",
+        "bet",
+        "lets go"
+    ],
+    "😂":[
+        "whats so funny",
+        "what did I say",
+        "oh great",
+        "haha",
+        "im not that funny chill out",
+        "what did I say"
+    ],
+    "shit":[
+        "you aint shit",
+        "why",
+        "watch yout fucking language",
+        "damn",
+        "what happened",
+        "im sorry"
     ]
   },
     "input": {
