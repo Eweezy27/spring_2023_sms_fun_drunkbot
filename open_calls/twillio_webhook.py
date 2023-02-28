@@ -1,7 +1,11 @@
 import yaml
+import nltk
 from flask import request, g
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 from os.path import exists
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.tag import map_tag
 
 
 from tools.logging import logger
@@ -19,6 +23,8 @@ with open('config.yml', 'r') as yml_file:
 
 CORPUS = {}
 
+stop_words = set(stopwords.words('english'))
+
 with open('chatbot_corpus.json', 'r') as myfile:
     CORPUS = json.loads(myfile.read())
 
@@ -29,35 +35,67 @@ def handle_request():
     act = None
     if exists( f"users/{request.form['From']}.pkl") :
         with open(f"users/{request.form['From']}.pkl", 'rb') as p:
-            act = pickle.load(p) 
+            act = pickle.load(p)
     else:
         act= actor(request.form['From'])
 
     act.save_msg(request.form['Body'])
     logger.debug(act.prev_msgs)
-    
+
 
     with open(f"users/{request.form['From']}.pkl", 'wb') as p:
         pickle.dump(act,p)
 
     response = random.choice(CORPUS['random']['random'])
 
+    nateNum = "+17609200710"
+    userNum = request.form['From']
     sent_input = str(request.form['Body']).lower()
+
+    wordslist = nltk.word_tokenize(sent_input)
+    wordslist = [w for w in wordslist if not w in stop_words]#remove stop words from text https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
+
+    tagged = nltk.pos_tag(wordslist)
+
+    stags = [(word, map_tag('en-ptb', 'universal', tag)) for word, tag in tagged]#simplified tags https://stackoverflow.com/questions/5787673/python-nltk-how-to-tag-sentences-with-the-simplified-set-of-part-of-speech-tags
+    keywords = list(filter(lambda x:x[1] == 'VERB' or x[1] == 'NOUN' or x[1] == 'ADJ', stags))
+    #print(keywords)
+    fkeyword = "no valid"#get first valid keyword
+    for i in keywords:
+        if i[0] in CORPUS['keyword']:
+            fkeyword = i[0]
+            break
+
     if sent_input in CORPUS['input']:
         response = random.choice(CORPUS['input'][sent_input])
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
+    
+    elif fkeyword != "no valid":
+        response = random.choice(CORPUS['keyword'][fkeyword])
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
+            
     else:
-        CORPUS['input'][sent_input] = ['Yooooooo whts uppppppp? Lets partyyyyyyyyyyy!']
+        nate_message = g.sms_client.messages.create(
+            body = 'answer this please:"{}"'.format(sent_input),
+            from_ = yml_configs['twillio']['phone_number'],
+            to = nateNum)
+
+        CORPUS['input'][sent_input] = ['--------IDK--------']
         with open('chatbot_corpus.json', 'w') as myfile:
             myfile.write(json.dumps(CORPUS, indent=4 ))
 
-    logger.debug(response)
+        logger.debug(response)
 
-    message = g.sms_client.messages.create(
-                     body=response,
-                     from_=yml_configs['twillio']['phone_number'],
-                     to=request.form['From'])
-    return json_response( status = "ok" )
-
+        message = g.sms_client.messages.create(
+            body=response,
+            from_=yml_configs['twillio']['phone_number'],
+            to=userNum)
 
 
-
+        return json_response( status = "ok" )
