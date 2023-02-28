@@ -54,14 +54,17 @@
       "where at",
       "what time",
       "when",
-      "sounds fun"
+      "sounds fun",
+      "WOOOOOO",
+      "Im here for a good time, not a long time"
     ],
     "vodka": [
       "Good choice",
       "Mine as well",
       "Wanna take a shot?",
       "I would love some",
-      "I just ran out actually"
+      "I just ran out actually",
+      "you foul for drinking that"
     ],
     "liquor": [
       "Good choice",
@@ -84,7 +87,8 @@
       "is it wednesday",
       "red or white",
       "I prefer champagne",
-      "fs"
+      "fs",
+      "Wine gives me the gnarliest hangovers"
     ],
     "milk": [
       "Not quite what I meant",
@@ -104,7 +108,8 @@
     ],
     "eat": [
       "yea I think some food would go well with this",
-      "agreed some food would be nice what were you thinking?"
+      "agreed some food would be nice what were you thinking?",
+      "I need a burrito right now"
     ],
     "fall": [
       "don't worry about me I can handle my liquor"
@@ -148,6 +153,23 @@
       "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
       "thas weird",
       "Damn"
+    ],
+    "alcohol": [
+        ""
+    ],
+    "bar": [
+        "" 
+    ],
+    "drugs": [
+        "No I don't have any of those!",
+        "Who's asking?",
+        "Not for you"
+    ],
+    "time": [
+        ""
+    ],
+    "hangover": [
+        "yeeaaaa tommorow is gonna be rough"
     ]
   },
     "input": {
