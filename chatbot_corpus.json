@@ -22,6 +22,122 @@
             "no way my girl finally texted back"
         ]
     },
+    "keyword": {
+    "drunk": [
+      "Nah I'm goood just had a couple rounds",
+      "I ain't drunk",
+      "Hah I think I would know if I was drunk",
+      "of course",
+      "why are you not",
+      "when are we drinking together",
+      "I wish",
+      "ni",
+      "of curse",
+      "maybe juts a littel"
+    ],
+    "wasted": [
+      "Nah I'm goood just had a couple rounds",
+      "Wanna take a shot?",
+      "yee",
+      "fo sho",
+      "haha like GTA",
+      "who told you that",
+      "why do you crae"
+    ],
+    "party": [
+      "where at",
+      "what time",
+      "when",
+      "sounds fun"
+    ],
+    "vodka": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "I would love some",
+      "I just ran out actually"
+    ],
+    "liquor": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "Yo",
+      "just beer for me tonight",
+      "only if you pay for it"
+    ],
+    "tequila": [
+      "Good choice",
+      "Mine as well",
+      "Wanna take a shot?",
+      "Any limes",
+      "I could do margs",
+      "nah"
+    ],
+    "wine": [
+      "Not my first choice",
+      "is it wednesday",
+      "red or white",
+      "I prefer champagne",
+      "fs"
+    ],
+    "milk": [
+      "Not quite what I meant",
+      "mommy milkers",
+      "no thanks"
+    ],
+    "drink": [
+      "I think i'll have one as well",
+      "how about a toast then?"
+    ],
+    "discuss": [
+      "I'm sorry but I'd rather drink"
+    ],
+    "drive": [
+      "I'm good to drive",
+      "I barely had any alchahol"
+    ],
+    "eat": [
+      "yea I think some food would go well with this",
+      "agreed some food would be nice what were you thinking?"
+    ],
+    "fall": [
+      "don't worry about me I can handle my liquor"
+    ],
+    "fight": [
+      "You don't want to mess with me",
+      "I fight better when I'm drunk",
+      "Hah a bar fight sign me up"
+    ],
+    "remember": [
+      "err I don't think I've forgotten anything",
+      "oh right thank you for the reminder"
+    ],
+    "sleep": [
+      "yea I'm probably going to have a hangover tommorow"
+    ],
+    "talk": [
+      "I'm sorry but I'd rather drink"
+    ],
+    "panda": [
+      "omg so cute",
+      "they are the least racist bear",
+      "once I saw one at the zoo",
+      "they are gonna die"
+    ],
+    "pine": [
+      "lone pine",
+      "good wood",
+      "I love trees",
+      "where are the forests around here",
+      "what"
+    ],
+    "kids": [
+      "I was a kid the first time I got drunk",
+      "my dad taught me at a young age that alcohol and violence can solve a lot of problems",
+      "thas weird",
+      "Damn"
+    ]
+  },
     "input": {
         "hello": [
             "Hey there",
