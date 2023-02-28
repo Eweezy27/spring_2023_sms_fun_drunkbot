@@ -41,7 +41,7 @@ def handle_request():
 
     act.save_msg(request.form['Body'])
     logger.debug(act.prev_msgs)
-
+    
 
     with open(f"users/{request.form['From']}.pkl", 'wb') as p:
         pickle.dump(act,p)
